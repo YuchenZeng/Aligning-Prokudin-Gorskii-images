@@ -9,9 +9,9 @@ This project reproduce to the color photo by his RGB glass plate negatives.
 ![alt text](https://github.com/YuchenZeng/Aligning-Prokudin-Gorskii-images/blob/master/images/example-Prokudin-Gorskii.png)
 
 # Detail
-Aligning image is easy. Minimizing the SSD Sum of Squared Differences(SSD) distance between the channels after randomly roll the image to match other. The result is not very good. 
+Aligning image is easy. Minimizing the SSD Sum of Squared Differences(SSD) distance between the channels after randomly roll the image to match other channels. The result is not very good. 
 ![alt text](https://github.com/YuchenZeng/Aligning-Prokudin-Gorskii-images/blob/master/images/align.png)
 
-A better way is to align the edge between each channel applying the Laplacian operator. 
+A better way is to align the edge between each channel after applying the Laplacian operator. 
 ![alt text](https://github.com/YuchenZeng/Aligning-Prokudin-Gorskii-images/blob/master/images/edge_detection.png)
 ![alt text](https://github.com/YuchenZeng/Aligning-Prokudin-Gorskii-images/blob/master/images/align_edge.png)
